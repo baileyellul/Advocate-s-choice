@@ -508,15 +508,53 @@
             <objects>
                 <viewController id="8ey-GX-L06" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2lQ-7X-x9a">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AzT-rO-nmj">
+                                <rect key="frame" x="20" y="-65" width="374" height="682"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">On June 24, 2022 protests broke out all throughout America after the Supreme Court decided to overturn Roe V. Wade. Protesting is a way to get the public to hear your voice. The public is forced to awknowledge you and your cause. If you decide to protest be sure to know your rights and your laws in order to keep you safe at all times. Below is a list of necessary items to keep you safe and healthy during a protest:</string>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="middleTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hy-Bl-Liu">
+                                <rect key="frame" x="0.0" y="528" width="414" height="314"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86985085230000003" green="0.67621814670000002" blue="0.69889248479999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">•good, comftorable shoes•
+•face mask•
+•sunglasses•
+•portable phone charger•
+•Snacks•
+WATER !!
+Suncreen
+Backpack
+gatorade (for electrolites) 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.1647058824" green="0.23921568630000001" blue="0.36470588240000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="26" name="HiraMinProN-W3"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="1" green="0.99062735002681446" blue="0.99538268977404698" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="1X6-9P-rlf"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.42080965909090906" green="0.1960987143518004" blue="0.19194337137725045" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="UwS-x5-ApW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iyT-PH-ep0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1236" y="-581"/>
+            <point key="canvasLocation" x="1234.7826086956522" y="-581.25"/>
         </scene>
         <!--Resources-->
         <scene sceneID="aFu-fT-aZ3">
@@ -532,23 +570,6 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VmU-1q-YEb">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6oy-i4-Bqc">
-                                                <rect key="frame" x="53" y="731" width="325" height="222"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">good, comftorable shoes
-face mask
-sun glasses
-portable phone charger
-Snacks
-WATER!!!
-Suncreen
-Backpack
-gatorade (for electrolites) 
-</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.16415673489999999" green="0.2365404069" blue="0.36472100019999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="2022-03-11T162058Z_31085503_RC2G0T96BEE3_RTRMADP_3_USA-ABORTION-TEXAS-1024x683" translatesAutoresizingMaskIntoConstraints="NO" id="kHT-Qv-92U">
                                                 <rect key="frame" x="87" y="841" width="240" height="128"/>
                                                 <constraints>
@@ -587,30 +608,22 @@ gatorade (for electrolites)
                                                 <color key="textColor" red="0.54281854630000004" green="0.64635986089999997" blue="0.68628185990000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resources" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ba-ek-Ca7">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RESOURCES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ba-ek-Ca7">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="143"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.5086442175" green="0.63097809949999994" blue="0.64190735480000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="43"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="43"/>
                                                 <color key="textColor" red="0.16415673489999999" green="0.2365404069" blue="0.36472100019999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" red="0.98828901199999997" green="1" blue="0.99173412890000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <size key="shadowOffset" width="3" height="0.0"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-2" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3f9-OE-e5M">
-                                                <rect key="frame" x="31" y="176" width="352" height="230"/>
+                                                <rect key="frame" x="31" y="245" width="352" height="230"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZ0-qb-JS0">
-                                                <rect key="frame" x="14" y="560" width="374" height="224"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">On June 24, 2022 protests broke out all throughout America after the Supreme Court decided to overturn Roe V. Wade. Protesting is a way to get the public to hear your voice. The public is forced to awknowledge you and your cause. If you decide to protest be sure to know your rights and your laws in order to keep you safe at all times. Below is a list of necessary items to keep you safe and healthy during a protest:</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.54281854630000004" green="0.64635986089999997" blue="0.68628185990000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxb-fp-D4z">
-                                                <rect key="frame" x="348" y="379" width="49" height="46"/>
+                                                <rect key="frame" x="349" y="458" width="49" height="46"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" imagePlacement="top" cornerStyle="capsule">
@@ -620,7 +633,20 @@ gatorade (for electrolites)
                                                     <color key="baseForegroundColor" red="0.98828901199999997" green="1" blue="0.99173412890000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="baseBackgroundColor" red="0.5086442175" green="0.63097809949999994" blue="0.64190735480000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="8ey-GX-L06" kind="show" id="krs-xo-DtU"/>
+                                                </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Protests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mgs-tp-6rE">
+                                                <rect key="frame" x="0.0" y="175" width="414" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.69411766529999996" green="0.37647059560000001" blue="0.37647059560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="43"/>
+                                                <color key="textColor" red="0.27101089015151514" green="0.12739077351267203" blue="0.12485341475820633" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.98828901199999997" green="1" blue="0.99173412890000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.94901961089999998" green="0.77925120619794164" blue="0.76545863680601356" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
