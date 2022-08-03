@@ -17,6 +17,9 @@
 		2801CF4B2899A18A00239324 /* Advocate_s_choiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2801CF4A2899A18A00239324 /* Advocate_s_choiceTests.swift */; };
 		2801CF552899A18B00239324 /* Advocate_s_choiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2801CF542899A18B00239324 /* Advocate_s_choiceUITests.swift */; };
 		2801CF572899A18B00239324 /* Advocate_s_choiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2801CF562899A18B00239324 /* Advocate_s_choiceUITestsLaunchTests.swift */; };
+		BD0A1BCE289B05BC004EDD7D /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A1BCD289B05BC004EDD7D /* InfoViewController.swift */; };
+		BD0A1BD0289B0605004EDD7D /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A1BCF289B0605004EDD7D /* ResourceViewController.swift */; };
+		BD0A1BD2289B061E004EDD7D /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A1BD1289B061E004EDD7D /* ShareViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		2801CF502899A18B00239324 /* Advocate's choiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advocate's choiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2801CF542899A18B00239324 /* Advocate_s_choiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advocate_s_choiceUITests.swift; sourceTree = "<group>"; };
 		2801CF562899A18B00239324 /* Advocate_s_choiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advocate_s_choiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD0A1BCD289B05BC004EDD7D /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		BD0A1BCF289B0605004EDD7D /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
+		BD0A1BD1289B061E004EDD7D /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 		2801CF242899A18400239324 = {
 			isa = PBXGroup;
 			children = (
+				BD0A1BD1289B061E004EDD7D /* ShareViewController.swift */,
+				BD0A1BCF289B0605004EDD7D /* ResourceViewController.swift */,
+				BD0A1BCD289B05BC004EDD7D /* InfoViewController.swift */,
 				2801CF2F2899A18400239324 /* Advocate's choice */,
 				2801CF492899A18A00239324 /* Advocate's choiceTests */,
 				2801CF532899A18B00239324 /* Advocate's choiceUITests */,
@@ -261,10 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0A1BD2289B061E004EDD7D /* ShareViewController.swift in Sources */,
 				2801CF352899A18400239324 /* ViewController.swift in Sources */,
 				2801CF3B2899A18400239324 /* Advocate_s_choice.xcdatamodeld in Sources */,
+				BD0A1BD0289B0605004EDD7D /* ResourceViewController.swift in Sources */,
 				2801CF312899A18400239324 /* AppDelegate.swift in Sources */,
 				2801CF332899A18400239324 /* SceneDelegate.swift in Sources */,
+				BD0A1BCE289B05BC004EDD7D /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
