@@ -12,14 +12,14 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Advocate_s_choice" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RVS-Ue-Jay">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RVS-Ue-Jay">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k9U-Vt-Gnk">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k9U-Vt-Gnk">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osi-99-7DH">
@@ -28,7 +28,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="" cornerStyle="medium">
                                                     <backgroundConfiguration key="background" strokeWidth="5">
-                                                        <color key="backgroundColor" red="0.7370778093" green="0.46782898880000001" blue="0.43107289739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="backgroundColor" red="0.35544820269999999" green="0.49964920219999998" blue="0.54427083330000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="0.99666587750000002" green="0.89856117219999998" blue="0.8754823182" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
@@ -43,7 +43,7 @@
                                                 <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <size key="shadowOffset" width="4" height="0.0"/>
                                             </label>
-                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uql-9B-ccX">
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uql-9B-ccX">
                                                 <rect key="frame" x="0.0" y="930" width="414" height="251"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nx3-a8-GHd">
@@ -78,17 +78,28 @@
                                                 <viewLayoutGuide key="contentLayoutGuide" id="LdZ-vc-u5k"/>
                                                 <viewLayoutGuide key="frameLayoutGuide" id="u60-X0-Bee"/>
                                             </scrollView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="My Body, My Right, My Choice" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ym-eb-Dyu">
-                                                <rect key="frame" x="0.0" y="770" width="414" height="45"/>
-                                                <color key="backgroundColor" red="0.7370778093" green="0.5792384152137684" blue="0.55348442071265036" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
-                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-01 at 1.12.49 PM" translatesAutoresizingMaskIntoConstraints="NO" id="IeB-up-kEA">
+                                                <rect key="frame" x="0.0" y="260" width="433" height="292"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="img is going to be part of a rotating slidshow of imgs thing " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmr-bN-FE0">
+                                                <rect key="frame" x="62" y="560" width="214" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.80804135099999996" green="0.72232639379999997" blue="0.70641614720000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
-                                                <color key="shadowColor" red="0.7370778093" green="0.46782898880000001" blue="0.43107289739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="My Body, My Right, My Choice" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ym-eb-Dyu">
+                                                <rect key="frame" x="0.0" y="770" width="414" height="44"/>
+                                                <color key="backgroundColor" red="0.16469726900025869" green="0.23845623400788479" blue="0.36472143308080807" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.35544820269999999" green="0.49964920219999998" blue="0.54427083330000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <size key="shadowOffset" width="2" height="-1"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.38760653410000001" green="0.1524006668" blue="0.15234396689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.69434580176767668" green="0.37632561544610871" blue="0.37439576551363951" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="Uql-9B-ccX" secondAttribute="bottom" constant="1819" id="5Hz-39-5vg"/>
                                             <constraint firstItem="Uql-9B-ccX" firstAttribute="leading" secondItem="k9U-Vt-Gnk" secondAttribute="leading" id="AbQ-MN-atp"/>
@@ -130,6 +141,7 @@
     <resources>
         <image name="173A1030-1" width="3000" height="2000"/>
         <image name="90" width="630" height="423"/>
+        <image name="Screen Shot 2022-08-01 at 1.12.49 PM" width="715" height="706"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
