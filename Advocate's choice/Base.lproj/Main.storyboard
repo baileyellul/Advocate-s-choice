@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k9U-Vt-Gnk">
-                                        <rect key="frame" x="0.0" y="-17" width="414" height="3000"/>
+                                        <rect key="frame" x="0.0" y="-3" width="414" height="3000"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osi-99-7DH">
                                                 <rect key="frame" x="25" y="63" width="365" height="160"/>
@@ -131,6 +132,35 @@
                                                     <color key="baseBackgroundColor" red="0.86985085227272729" green="0.67621814669872793" blue="0.69889248484801825" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cT-Ji-neo">
+                                                <rect key="frame" x="57" y="1875" width="67" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" imagePlacement="top">
+                                                    <imageReference key="image" image="person.2.wave.2.fill" catalog="system" symbolScale="large" renderingMode="original"/>
+                                                    <attributedString key="attributedTitle"/>
+                                                    <color key="baseBackgroundColor" red="0.86985085230000003" green="0.67621814670000002" blue="0.69889248479999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHa-pV-JDQ">
+                                                <rect key="frame" x="51" y="1875" width="67" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" imagePlacement="top" cornerStyle="medium">
+                                                    <imageReference key="image" image="person.2.wave.2.fill" catalog="system" symbolScale="large" renderingMode="template"/>
+                                                    <attributedString key="attributedTitle"/>
+                                                    <color key="baseBackgroundColor" red="0.51745975379999998" green="0.24116294269999999" blue="0.2284606038" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBC-dn-rLX">
+                                                <rect key="frame" x="51" y="1723" width="67" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" image="person.fill" catalog="system" cornerStyle="medium">
+                                                    <attributedString key="attributedTitle"/>
+                                                    <color key="baseBackgroundColor" red="0.86985085230000003" green="0.67621814670000002" blue="0.69889248479999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rsf-Q2-SWx">
                                                 <rect key="frame" x="17" y="1541" width="381" height="121"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -203,6 +233,26 @@
                                                 <color key="textColor" red="1" green="0.88737619410000002" blue="0.87094395020000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLU-x4-1df">
+                                                <rect key="frame" x="51" y="1571" width="67" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" imagePlacement="top" cornerStyle="medium">
+                                                    <imageReference key="image" image="hand.thumbsdown" catalog="system" symbolScale="large" renderingMode="template"/>
+                                                    <attributedString key="attributedTitle"/>
+                                                    <color key="baseBackgroundColor" red="0.51745975379999998" green="0.24116294269999999" blue="0.2284606038" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pab-Cm-gL4">
+                                                <rect key="frame" x="51" y="1422" width="67" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" imagePlacement="top" cornerStyle="medium">
+                                                    <imageReference key="image" image="rectangle.3.offgrid" catalog="system" symbolScale="large" renderingMode="original"/>
+                                                    <attributedString key="attributedTitle"/>
+                                                    <color key="baseBackgroundColor" red="0.86985085230000003" green="0.67621814670000002" blue="0.69889248479999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.69434580176767668" green="0.37632561544610871" blue="0.37439576551363951" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -271,7 +321,7 @@
                         <viewLayoutGuide key="safeArea" id="wnE-DM-F8E"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="rectangle.grid.2x2" catalog="system" id="y8J-UG-cox"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="rectangle.and.paperclip" catalog="system" id="y8J-UG-cox"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uaq-fB-yL0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -287,7 +337,7 @@
                         <viewLayoutGuide key="safeArea" id="xeq-2J-e6y"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="phone.bubble.left.fill" catalog="system" id="pqc-sz-Bv4"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="cursorarrow.rays" catalog="system" id="pqc-sz-Bv4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eLT-pq-Lre" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -303,7 +353,7 @@
                         <viewLayoutGuide key="safeArea" id="y8T-cr-3Ab"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="filemenu.and.cursorarrow" catalog="system" id="dnF-d3-B8H">
+                    <tabBarItem key="tabBarItem" title="Item" image="camera.fill" catalog="system" id="dnF-d3-B8H">
                         <color key="badgeColor" red="0.49923058710000001" green="0.13371069799999999" blue="0.20825392649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBarItem>
                 </viewController>
@@ -317,12 +367,16 @@
         <image name="90" width="630" height="423"/>
         <image name="Screen Shot 2022-08-01 at 1.12.49 PM" width="715" height="706"/>
         <image name="abortion rights business leaders july 2022" width="1500" height="1000"/>
+        <image name="camera.fill" catalog="system" width="128" height="94"/>
+        <image name="cursorarrow.rays" catalog="system" width="128" height="116"/>
         <image name="download" width="970" height="647"/>
         <image name="download-1" width="880" height="587"/>
-        <image name="filemenu.and.cursorarrow" catalog="system" width="128" height="96"/>
+        <image name="hand.thumbsdown" catalog="system" width="128" height="128"/>
         <image name="house" catalog="system" width="128" height="106"/>
-        <image name="phone.bubble.left.fill" catalog="system" width="128" height="110"/>
-        <image name="rectangle.grid.2x2" catalog="system" width="128" height="99"/>
+        <image name="person.2.wave.2.fill" catalog="system" width="128" height="84"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="rectangle.3.offgrid" catalog="system" width="128" height="81"/>
+        <image name="rectangle.and.paperclip" catalog="system" width="128" height="99"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
