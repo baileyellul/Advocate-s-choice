@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Advocate_s_choice" customModuleProvider="target" sceneMemberID="viewController">
@@ -46,26 +46,12 @@
                                                 <color key="textColor" red="0.80804135099999996" green="0.72232639379999997" blue="0.70641614720000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Body, My Right, My Choice" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ym-eb-Dyu">
-                                                <rect key="frame" x="0.0" y="802" width="414" height="52"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.16469726900025869" green="0.23845623400788479" blue="0.36472143308080807" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="25"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                                <color key="shadowColor" red="0.35544820269999999" green="0.49964920219999998" blue="0.54427083330000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <size key="shadowOffset" width="2" height="-1"/>
-                                            </label>
                                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bch-0d-NWV">
                                                 <rect key="frame" x="0.0" y="914" width="414" height="280"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xU4-2H-VoK">
                                                         <rect key="frame" x="0.0" y="4" width="2032" height="272"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="173A1030-1" translatesAutoresizingMaskIntoConstraints="NO" id="RjD-pL-php">
-                                                                <rect key="frame" x="-20" y="0.0" width="485" height="302"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            </imageView>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="90" translatesAutoresizingMaskIntoConstraints="NO" id="9Rw-Fv-ikx">
                                                                 <rect key="frame" x="444" y="0.0" width="405" height="272"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -80,6 +66,10 @@
                                                             </imageView>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abortion rights business leaders july 2022" translatesAutoresizingMaskIntoConstraints="NO" id="bKq-Xc-A8S">
                                                                 <rect key="frame" x="1606" y="-15" width="426" height="302"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            </imageView>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="173A1030-1" translatesAutoresizingMaskIntoConstraints="NO" id="RjD-pL-php">
+                                                                <rect key="frame" x="-20" y="-30" width="485" height="302"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             </imageView>
                                                         </subviews>
@@ -104,7 +94,7 @@
                                                 <viewLayoutGuide key="frameLayoutGuide" id="yFB-ml-tTe"/>
                                             </scrollView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDU-Q9-SGh">
-                                                <rect key="frame" x="57" y="1287" width="300" height="70"/>
+                                                <rect key="frame" x="57" y="1293" width="300" height="70"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="The Issue" cornerStyle="medium">
@@ -253,6 +243,41 @@
                                                     <color key="baseBackgroundColor" red="0.86985085230000003" green="0.67621814670000002" blue="0.69889248479999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                             </button>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="LZs-na-vpD">
+                                                <rect key="frame" x="0.0" y="914" width="414" height="4"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="progressTintColor" red="0.4208885732" green="0.1127280786" blue="0.1755735732" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="trackTintColor" red="0.4208885732" green="0.1127280786" blue="0.1755735732" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </progressView>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="rDq-7X-gKi">
+                                                <rect key="frame" x="0.0" y="1190" width="414" height="4"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="progressTintColor" red="0.4208885732" green="0.1127280786" blue="0.1755735732" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="trackTintColor" red="0.4208885732" green="0.1127280786" blue="0.1755735732" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </progressView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Body, My Right, My Choice" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ym-eb-Dyu">
+                                                <rect key="frame" x="0.0" y="723" width="414" height="52"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.16469726900025869" green="0.23845623400788479" blue="0.36472143308080807" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="25"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.35544820269999999" green="0.49964920219999998" blue="0.54427083330000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <size key="shadowOffset" width="2" height="-1"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7t2-VB-EO6">
+                                                <rect key="frame" x="8" y="836" width="400" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="#MyBodyMyChoice" cornerStyle="medium">
+                                                    <backgroundConfiguration key="background" strokeWidth="0.0">
+                                                        <color key="strokeColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="43"/>
+                                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.69434580176767668" green="0.37632561544610871" blue="0.37439576551363951" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -281,7 +306,7 @@
                             <constraint firstItem="RVS-Ue-Jay" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="cq6-xZ-wKo"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="house" catalog="system" id="hUx-v2-m0L"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="hUx-v2-m0L"/>
                     <size key="freeformSize" width="414" height="896"/>
                     <connections>
                         <outlet property="view" destination="Pmh-DC-Evn" id="Jew-E6-uqJ"/>
@@ -311,7 +336,7 @@
             </objects>
             <point key="canvasLocation" x="-832" y="70"/>
         </scene>
-        <!--Item-->
+        <!--Info-->
         <scene sceneID="SMq-jg-kKw">
             <objects>
                 <viewController id="Pw2-nL-cG2" sceneMemberID="viewController">
@@ -321,13 +346,13 @@
                         <viewLayoutGuide key="safeArea" id="wnE-DM-F8E"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="rectangle.and.paperclip" catalog="system" id="y8J-UG-cox"/>
+                    <tabBarItem key="tabBarItem" title="Info" image="rectangle.and.paperclip" catalog="system" id="y8J-UG-cox"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uaq-fB-yL0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="496" y="72"/>
         </scene>
-        <!--Item-->
+        <!--Resources-->
         <scene sceneID="wFo-Hg-Rqh">
             <objects>
                 <viewController id="kVJ-mO-aAM" sceneMemberID="viewController">
@@ -337,13 +362,13 @@
                         <viewLayoutGuide key="safeArea" id="xeq-2J-e6y"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="cursorarrow.rays" catalog="system" id="pqc-sz-Bv4"/>
+                    <tabBarItem key="tabBarItem" title="Resources" image="cursorarrow.rays" catalog="system" id="pqc-sz-Bv4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eLT-pq-Lre" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1158" y="71"/>
         </scene>
-        <!--Item-->
+        <!--#Share-->
         <scene sceneID="fiM-Bj-wcR">
             <objects>
                 <viewController id="8Py-OO-D3k" sceneMemberID="viewController">
@@ -353,7 +378,7 @@
                         <viewLayoutGuide key="safeArea" id="y8T-cr-3Ab"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="camera.fill" catalog="system" id="dnF-d3-B8H">
+                    <tabBarItem key="tabBarItem" title="#Share" image="camera.fill" catalog="system" id="dnF-d3-B8H">
                         <color key="badgeColor" red="0.49923058710000001" green="0.13371069799999999" blue="0.20825392649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBarItem>
                 </viewController>
