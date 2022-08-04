@@ -543,7 +543,7 @@
                                         <color key="trackTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </progressView>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DbS-Se-ftB">
-                                        <rect key="frame" x="0.0" y="-144" width="351" height="3200"/>
+                                        <rect key="frame" x="0.0" y="-23" width="351" height="3200"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fw7-qO-fnn">
                                                 <rect key="frame" x="8" y="127" width="337" height="655"/>
@@ -733,7 +733,7 @@
                                                 <color key="backgroundColor" red="0.72337561849999998" green="0.42755499479999998" blue="0.43528598549999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
-                                                        <mutableString key="content">On June 24, 2022 6-3 members of the Supreme Court ruled to overturn Roe V. Wade. Now you’re right to an abortion is dependent on where you live and what you can afford. Thirteen states have laws implemented named “trigger laws”, stating that with Roe V. Wade being overturned abortion is immediately made illegal after 6 weeks of Roe V. Wade being overturned. An additional 13 (at the moment) have made the signals stating they will move towards banning abortion. Some states even plan to criminalize abortion and certain methods of contraception. </mutableString>
+                                                        <string key="content">On June 24, 2022 6-3 members of the Supreme Court ruled to overturn Roe V. Wade. Now you’re right to an abortion is dependent on where you live and what you can afford. Thirteen states have laws implemented named “trigger laws”, stating that with Roe V. Wade being overturned abortion is immediately made illegal after 6 weeks of Roe V. Wade being overturned. An additional 13 (at the moment) have made the signals stating they will move towards banning abortion. Some states even plan to criminalize abortion and certain methods of contraception. </string>
                                                         <attributes>
                                                             <font key="NSFont" size="13" name="HelveticaNeue"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
