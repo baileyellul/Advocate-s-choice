@@ -1472,7 +1472,11 @@
                     <navigationItem key="navigationItem" id="b7p-Rv-ene"/>
                     <size key="freeformSize" width="414" height="680"/>
                     <connections>
+                        <outlet property="blueButton" destination="v0H-ze-m2r" id="Esd-I4-6Cw"/>
+                        <outlet property="greenButton" destination="3Ax-r4-tlB" id="CVj-mN-a82"/>
                         <outlet property="imageRounded" destination="3f9-OE-e5M" id="gy2-pw-DoJ"/>
+                        <outlet property="imageRoundedd" destination="kHT-Qv-92U" id="5F5-ZC-1Wo"/>
+                        <outlet property="lrbutton" destination="Xbc-9K-fmj" id="HAY-mc-GHy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OvN-ZV-g8Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1482,8 +1486,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Kat-tn-r86"/>
-        <segue reference="W9J-dL-yJB"/>
-        <segue reference="oV4-Z0-jNp"/>
+        <segue reference="Dcw-xc-GL2"/>
+        <segue reference="7ZD-GG-Z3G"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="173A1030-1" width="3000" height="2000"/>
