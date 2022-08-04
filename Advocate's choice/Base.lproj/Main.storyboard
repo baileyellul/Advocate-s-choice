@@ -951,7 +951,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Lq-la-Oeu">
-                                                <rect key="frame" x="69" y="31" width="107" height="48"/>
+                                                <rect key="frame" x="62" y="31" width="107" height="48"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" imagePlacement="top" title="Back Page" subtitle="" cornerStyle="capsule">
@@ -966,7 +966,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sjI-PW-AEi">
-                                                <rect key="frame" x="218" y="31" width="176" height="48"/>
+                                                <rect key="frame" x="186" y="31" width="176" height="48"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" imagePlacement="top" title="Back To Resources" subtitle="" cornerStyle="capsule">
