@@ -814,7 +814,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" cornerStyle="small" titleAlignment="center">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content="Button">
+                                                        <fragment content="Button!">
                                                             <attributes>
                                                                 <font key="NSFont" size="12" name="HiraMinProN-W3"/>
                                                             </attributes>
