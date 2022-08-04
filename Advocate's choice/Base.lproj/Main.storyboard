@@ -846,7 +846,7 @@
         <!--Generate View Controller-->
         <scene sceneID="a0a-r9-ZLE">
             <objects>
-                <viewController id="mk9-H3-YYl" customClass="GenerateViewController" sceneMemberID="viewController">
+                <viewController id="mk9-H3-YYl" customClass="GenerateViewController" customModule="Advocate_s_choice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n5T-Na-BAU">
                         <rect key="frame" x="0.0" y="0.0" width="411" height="788"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1013,7 +1013,7 @@
                     <navigationItem key="navigationItem" id="o5S-XQ-KDI"/>
                     <size key="freeformSize" width="411" height="842"/>
                     <connections>
-                        <outlet property="loc" destination="IHS-cf-JmH" id="jbh-cF-fRb"/>
+                        <outlet property="loc" destination="IHS-cf-JmH" id="p5G-jn-kMf"/>
                         <outlet property="mes" destination="b58-9Q-xE9" id="8fS-XK-B4r"/>
                         <outlet property="message" destination="Ij6-RK-h0R" id="WcL-ct-iM1"/>
                         <outlet property="name" destination="GKK-oH-Fqh" id="XLc-j0-6Yy"/>
@@ -1493,7 +1493,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Kat-tn-r86"/>
-        <segue reference="eB9-dm-c04"/>
+        <segue reference="oV4-Z0-jNp"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="173A1030-1" width="3000" height="2000"/>
