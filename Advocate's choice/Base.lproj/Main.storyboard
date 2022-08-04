@@ -137,7 +137,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" imagePlacement="top" cornerStyle="medium">
-                                                    <imageReference key="image" image="person.2.wave.2.fill" catalog="system" symbolScale="large" renderingMode="template"/>
+                                                    <imageReference key="image" image="speaker.wave.3" catalog="system" symbolScale="large" renderingMode="template"/>
                                                     <attributedString key="attributedTitle"/>
                                                     <color key="baseBackgroundColor" red="0.51745975379999998" green="0.24116294269999999" blue="0.2284606038" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
@@ -167,36 +167,27 @@
                                                     <color key="baseBackgroundColor" red="0.51745975379999998" green="0.24116294269999999" blue="0.2284606038" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSG-oE-brN">
-                                                <rect key="frame" x="144" y="1392" width="246" height="121"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSG-oE-brN">
+                                                <rect key="frame" x="126" y="1392" width="264" height="121"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <string key="text">Recently, with the overturn of Roe v Wade, states now have the power to ban abortion rights -- with many states already doing so.</string>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <color key="textColor" red="1" green="0.87362900759999995" blue="0.86451541080000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wv9-R0-w66">
-                                                <rect key="frame" x="144" y="1541" width="246" height="121"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a problem because with states banning abortions, people will resort to unsafe options." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wv9-R0-w66">
+                                                <rect key="frame" x="121" y="1541" width="275" height="121"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUL-QV-bSk">
-                                                <rect key="frame" x="144" y="1693" width="246" height="121"/>
+                                                <rect key="frame" x="129" y="1693" width="262" height="121"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZq-FS-B2c">
-                                                <rect key="frame" x="144" y="1845" width="246" height="121"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <string key="text">From this overturn, LGBTQ+ communities, people of color, immigrant communities, and other minorities are going to be most impacted by this issue.</string>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <color key="textColor" red="1" green="0.87362900759999995" blue="0.86451541080000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8MR-s3-hHy">
@@ -285,6 +276,13 @@
                                                     <color key="baseBackgroundColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHT-CA-LfA">
+                                                <rect key="frame" x="198" y="2694" width="191" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pl" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tub-1p-mO6">
                                                 <rect key="frame" x="25" y="2675" width="158" height="182"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -313,7 +311,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" imagePlacement="top" cornerStyle="medium">
-                                                    <imageReference key="image" image="rectangle.3.offgrid" catalog="system" symbolScale="large" renderingMode="original"/>
+                                                    <imageReference key="image" image="doc.richtext.ko" catalog="system" symbolScale="large" renderingMode="original"/>
                                                     <attributedString key="attributedTitle"/>
                                                     <color key="baseBackgroundColor" red="0.86985085230000003" green="0.67621814670000002" blue="0.69889248479999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
@@ -443,11 +441,11 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHT-CA-LfA">
-                                                <rect key="frame" x="198" y="2694" width="191" height="145"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We need to take action now, and support this cause to help protect abortion rights." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZq-FS-B2c">
+                                                <rect key="frame" x="138" y="1845" width="241" height="121"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="16"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -514,7 +512,7 @@
             <objects>
                 <viewController id="8Py-OO-D3k" customClass="ShareViewController" customModule="Advocate_s_choice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ss2-t7-N5u">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="y8T-cr-3Ab"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -638,6 +636,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Button" cornerStyle="medium">
                                                     <backgroundConfiguration key="background" strokeWidth="5">
+                                                        <color key="backgroundColor" red="0.57647061349999995" green="0.2588235438" blue="0.24313727020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="15"/>
@@ -650,6 +649,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Button" cornerStyle="medium">
                                                     <backgroundConfiguration key="background" strokeWidth="4">
+                                                        <color key="backgroundColor" red="0.083430474320000003" green="0.22047864189999999" blue="0.48423690029999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="15"/>
@@ -662,6 +662,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Button" cornerStyle="medium">
                                                     <backgroundConfiguration key="background" strokeWidth="5">
+                                                        <color key="backgroundColor" red="0.65824258209999997" green="0.2772757267" blue="0.28960309280000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="15"/>
@@ -674,6 +675,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Button" cornerStyle="medium">
                                                     <backgroundConfiguration key="background" strokeWidth="4">
+                                                        <color key="backgroundColor" red="0.41524621210000001" green="0.038599950479999999" blue="0.084632108989999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="15"/>
@@ -686,6 +688,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Button" cornerStyle="medium">
                                                     <backgroundConfiguration key="background" strokeWidth="4">
+                                                        <color key="backgroundColor" red="0.19777524869999999" green="0.34442063309999998" blue="0.48423690029999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="15"/>
@@ -698,6 +701,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Button" cornerStyle="medium">
                                                     <backgroundConfiguration key="background" strokeWidth="5">
+                                                        <color key="backgroundColor" red="0.062679077060000005" green="0.16563968849999999" blue="0.36379419190000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="15"/>
@@ -783,28 +787,69 @@
             </objects>
             <point key="canvasLocation" x="531.8840579710145" y="70.982142857142847"/>
         </scene>
+        <!--Pop Up View Controller-->
+        <scene sceneID="9kj-VJ-Xvo">
+            <objects>
+                <viewController id="on2-IY-9l9" customClass="PopUpViewController" customModule="Advocate_s_choice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cRU-qH-y2R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0sJ-Pb-IgB">
+                                <rect key="frame" x="53.5" y="253" width="307" height="336"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fvg-YT-9Up">
+                                        <rect key="frame" x="8" y="48" width="291" height="240"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment>
+                                                    <string key="content">Emailing your local representatives is a way to fight back right at the source. It gets to them and tells them what you stand for. With more and more people speaking out to them, representatives might be more inclined to acknowledge the sovereignty of the issue at hand.</string>
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.93385022095959591" green="0.92568787120773033" blue="0.86972095323484921" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <font key="NSFont" size="20" name="HiraMinProN-W6"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.79711174240000005" green="0.44160703849115202" blue="0.43880853065678888" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="336" id="3PT-Qc-p9O"/>
+                                    <constraint firstAttribute="width" constant="307" id="bfF-pb-7ZN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8iY-Dq-SAH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0sJ-Pb-IgB" firstAttribute="centerX" secondItem="cRU-qH-y2R" secondAttribute="centerX" id="aZc-MO-WR9"/>
+                            <constraint firstItem="0sJ-Pb-IgB" firstAttribute="centerY" secondItem="cRU-qH-y2R" secondAttribute="centerY" id="hRo-7J-c9T"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ikk-Q3-spP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wtD-zi-e8G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-868.11594202898561" y="-577.23214285714278"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="a0a-r9-ZLE">
             <objects>
-                <viewController id="mk9-H3-YYl" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sbPopUpID" id="mk9-H3-YYl" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n5T-Na-BAU">
-                        <rect key="frame" x="0.0" y="0.0" width="411" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="411" height="788"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RZ6-ec-RLM">
-                                <rect key="frame" x="0.0" y="0.0" width="411" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="411" height="788"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KV8-J1-jZ8">
                                         <rect key="frame" x="0.0" y="0.0" width="411" height="1570"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIH-F5-e7r">
-                                                <rect key="frame" x="19" y="-27" width="376" height="517"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Emailing your local representatives is a way to fight back right at the source. It gets to them and tells them what you stand for. With more and more people speaking out to them, representitives might be more inclined to awknowledge the severighty of the issue at hand.</string>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="25"/>
-                                                <color key="textColor" red="0.1647058874" green="0.23921570180000001" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="UP5-ah-mMy">
                                                 <rect key="frame" x="0.0" y="540" width="414" height="4"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -884,15 +929,10 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.57619160349999998" green="0.31228542660000003" blue="0.2983717722" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="medium">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Generate Message">
-                                                            <attributes>
-                                                                <color key="NSColor" red="1" green="0.87362900763376394" blue="0.864515410782005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                <font key="NSFont" size="24" name="HiraMinProN-W3"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="Generate Message" cornerStyle="large">
+                                                    <backgroundConfiguration key="background"/>
+                                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="24"/>
+                                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ij6-RK-h0R">
@@ -940,7 +980,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="o5S-XQ-KDI"/>
-                    <size key="freeformSize" width="411" height="896"/>
+                    <size key="freeformSize" width="411" height="842"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="daf-c3-A1A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1372,7 +1412,7 @@
                                                     <color key="baseBackgroundColor" red="0.51475233649999996" green="0.70572450480000004" blue="0.70740609219999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <segue destination="8Py-OO-D3k" kind="show" id="T3s-sa-U5b"/>
+                                                    <segue destination="on2-IY-9l9" kind="show" id="57K-5c-lvC"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1414,7 +1454,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="aoa-HZ-qX0"/>
-        <segue reference="T3s-sa-U5b"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="173A1030-1" width="3000" height="2000"/>
@@ -1429,6 +1468,7 @@
         <image name="cursorarrow.rays" catalog="system" width="128" height="116"/>
         <image name="d41586-022-01775-z_23202552" width="800" height="533"/>
         <image name="doc.richtext" catalog="system" width="115" height="128"/>
+        <image name="doc.richtext.ko" catalog="system" width="115" height="128"/>
         <image name="download" width="970" height="647"/>
         <image name="download-1" width="880" height="587"/>
         <image name="download-2" width="880" height="587"/>
@@ -1439,9 +1479,9 @@
         <image name="person.2.wave.2.fill" catalog="system" width="128" height="84"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="pl" width="992" height="558"/>
-        <image name="rectangle.3.offgrid" catalog="system" width="128" height="81"/>
         <image name="rectangle.and.paperclip" catalog="system" width="128" height="99"/>
         <image name="roemarch01" width="2400" height="1602"/>
+        <image name="speaker.wave.3" catalog="system" width="128" height="86"/>
         <image name="tv.and.mediabox" catalog="system" width="128" height="89"/>
         <image name="x" width="1404" height="907"/>
         <systemColor name="systemBackgroundColor">
