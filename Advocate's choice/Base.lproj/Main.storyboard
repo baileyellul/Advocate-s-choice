@@ -761,22 +761,13 @@
                                                 <color key="textColor" red="1" green="0.88737619410000002" blue="0.87094395020000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HdM-t8-1QP">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HdM-t8-1QP">
                                                 <rect key="frame" x="59" y="568" width="297" height="223"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.72337561849999998" green="0.42755499479999998" blue="0.43528598549999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment>
-                                                        <mutableString key="content">On June 24, 2022 6-3 members of the Supreme Court ruled to overturn Roe V. Wade. Now you’re right to an abortion is dependent on where you live and what you can afford. Thirteen states have laws implemented named “trigger laws”, stating that with Roe V. Wade being overturned abortion is immediately made illegal after 6 weeks of Roe V. Wade being overturned. An additional 13 (at the moment) have made the signals stating they will move towards banning abortion. Some states even plan to criminalize abortion and certain methods of contraception. </mutableString>
-                                                        <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                            <font key="NSFont" size="14" name="HiraMinProN-W3"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
+                                                <string key="text">On June 24, 2022 6-3 members of the Supreme Court ruled to overturn Roe V. Wade. Now you’re right to an abortion is dependent on where you live and what you can afford. Thirteen states have laws implemented named “trigger laws”, stating that with Roe V. Wade being overturned abortion is immediately made illegal after 6 weeks of Roe V. Wade being overturned. An additional 13 (at the moment) have made the signals stating they will move towards banning abortion. Some states even plan to criminalize abortion and certain methods of contraception. </string>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="14"/>
+                                                <color key="textColor" red="0.97937732929999999" green="0.88265496489999995" blue="0.86666208509999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Importance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3z-qB-XTQ">
@@ -802,6 +793,46 @@
                                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="15"/>
                                                 </buttonConfiguration>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8Q-pe-wca">
+                                                <rect key="frame" x="78" y="1881" width="260" height="66"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Push the button for a statistic!">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <font key="NSFont" size="17" name="HiraMinProN-W3"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18h-Ur-aca">
+                                                <rect key="frame" x="126" y="1955" width="164" height="85"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.16415673489999999" green="0.2365404069" blue="0.36472100019999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="small" titleAlignment="center">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Button">
+                                                            <attributes>
+                                                                <font key="NSFont" size="12" name="HiraMinProN-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="statisticButton:" destination="ssf-hL-pKO" eventType="touchUpInside" id="Z1V-cE-JwG"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is where your statistic will appear!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oq3-Q3-AFk">
+                                                <rect key="frame" x="71" y="2062" width="273" height="199"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="11"/>
+                                                <color key="textColor" red="0.72337561849999998" green="0.42755499479999998" blue="0.43528598549999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.54509806630000002" green="0.64705884459999996" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -830,6 +861,10 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Info" image="rectangle.and.paperclip" catalog="system" id="Apt-Zn-gOn"/>
                     <size key="freeformSize" width="406" height="896"/>
+                    <connections>
+                        <outlet property="statistic" destination="DbS-Se-ftB" id="Yoq-b7-5Ry"/>
+                        <outlet property="statisticTwo" destination="oq3-Q3-AFk" id="C4Z-HF-Jv6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C3C-4X-ti0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1343,11 +1378,11 @@
             <objects>
                 <viewController id="YPE-3j-MFu" customClass="ResourceViewController" customModule="Advocate_s_choice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="snt-A6-T1m">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="626"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="572"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OL6-iQ-a76">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="626"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="572"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VmU-1q-YEb">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
@@ -1531,7 +1566,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Resources" image="cursorarrow.rays" catalog="system" id="IaA-CR-ZCe"/>
                     <navigationItem key="navigationItem" id="b7p-Rv-ene"/>
-                    <size key="freeformSize" width="414" height="680"/>
+                    <size key="freeformSize" width="414" height="626"/>
                     <connections>
                         <outlet property="blueButton" destination="v0H-ze-m2r" id="Esd-I4-6Cw"/>
                         <outlet property="greenButton" destination="3Ax-r4-tlB" id="CVj-mN-a82"/>
@@ -1542,13 +1577,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OvN-ZV-g8Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1234.7826086956522" y="33.482142857142854"/>
+            <point key="canvasLocation" x="1234.7826086956522" y="69.642857142857139"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9g8-ln-gE4"/>
         <segue reference="Kat-tn-r86"/>
-        <segue reference="oV4-Z0-jNp"/>
+        <segue reference="eB9-dm-c04"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="173A1030-1" width="3000" height="2000"/>
