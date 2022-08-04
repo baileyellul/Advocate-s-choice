@@ -962,7 +962,7 @@
                                                     <color key="baseBackgroundColor" red="0.1647058824" green="0.23921568630000001" blue="0.36470588240000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <segue destination="YPE-3j-MFu" kind="show" id="gEF-TH-iN1"/>
+                                                    <segue destination="on2-IY-9l9" kind="show" id="oV4-Z0-jNp"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sjI-PW-AEi">
@@ -976,6 +976,9 @@
                                                     <color key="baseForegroundColor" red="0.98828901199999997" green="1" blue="0.99173412890000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="baseBackgroundColor" red="0.1647058824" green="0.23921568630000001" blue="0.36470588240000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="YPE-3j-MFu" kind="show" id="Kat-tn-r86"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.66972566778994846" green="0.75759548611111116" blue="0.75091135334096859" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1478,8 +1481,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="gEF-TH-iN1"/>
+        <segue reference="Kat-tn-r86"/>
         <segue reference="W9J-dL-yJB"/>
+        <segue reference="oV4-Z0-jNp"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="173A1030-1" width="3000" height="2000"/>
