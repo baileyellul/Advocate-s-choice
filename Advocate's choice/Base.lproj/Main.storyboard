@@ -498,7 +498,6 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="cou-rl-yzJ"/>
                         <segue destination="ssf-hL-pKO" kind="relationship" relationship="viewControllers" id="aUl-BL-Rq6"/>
-                        <segue destination="YPE-3j-MFu" kind="relationship" relationship="viewControllers" id="fIZ-XJ-5ck"/>
                         <segue destination="YPE-3j-MFu" kind="relationship" relationship="viewControllers" id="aoa-HZ-qX0"/>
                         <segue destination="8Py-OO-D3k" kind="relationship" relationship="viewControllers" id="qPT-vL-zlA"/>
                     </connections>
@@ -1485,7 +1484,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Kat-tn-r86"/>
+        <segue reference="sAM-Ft-Ywc"/>
         <segue reference="Dcw-xc-GL2"/>
         <segue reference="7ZD-GG-Z3G"/>
     </inferredMetricsTieBreakers>
