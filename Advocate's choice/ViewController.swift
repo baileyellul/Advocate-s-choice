@@ -92,5 +92,37 @@ class ViewController: UIViewController {
     }
     
     
-}
 
+
+@IBAction func Pl(sender: AnyObject) {
+    if let urlPl = NSURL(string: "https://www.kmbc.com/article/despite-vote-on-kansas-abortion-amendment-abortion-battle-in-kansas-not-over/40801413#") {
+    UIApplication.shared.open(urlPl as URL, options:[:], completionHandler:nil)
+    }
+}
+    
+    
+    
+    
+    @IBAction func Ol(sender: AnyObject) {
+        if let urlOl = NSURL(string: "https://www.nytimes.com/2022/08/03/us/politics/democrats-abortion-kansas.html") {
+        UIApplication.shared.open(urlOl as URL, options:[:], completionHandler:nil)
+        }
+    }
+
+
+    @IBAction func Ka(sender: AnyObject) {
+        if let urlKa = NSURL(string: "https://www.npr.org/2022/08/04/1115404510/kansas-abortion-rights-midterm-elections-strategy") {
+        UIApplication.shared.open(urlKa as URL, options:[:], completionHandler:nil)
+        }
+    }
+
+    @IBAction func Tv(sender: AnyObject) {
+        if let urlTv = NSURL(string: "https://www.washingtonpost.com/politics/2022/08/03/biden-abortion-senate-nato-pelosi/") {
+        UIApplication.shared.open(urlTv as URL, options:[:], completionHandler:nil)
+        }
+    }
+
+    
+    
+    
+}
