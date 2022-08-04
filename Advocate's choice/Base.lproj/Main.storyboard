@@ -606,17 +606,73 @@
                     <view key="view" contentMode="scaleToFill" id="ss2-t7-N5u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#ShareYourStory" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwj-5h-fvQ">
+                                <rect key="frame" x="0.0" y="80" width="414" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86985085230000003" green="0.65276857526346044" blue="0.61237816707840831" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="40"/>
+                                <color key="textColor" red="0.36024305559999997" green="0.096485174660000006" blue="0.15027530920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.69434580180000005" green="0.37632561539999998" blue="0.37439576549999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="3" height="2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LB4-FL-Aft">
+                                <rect key="frame" x="47" y="168" width="147" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" imagePlacement="top" title="Take A Photo" subtitle="" cornerStyle="capsule">
+                                    <imageReference key="image" image="camera.circle" catalog="system" symbolScale="large" renderingMode="template"/>
+                                    <backgroundConfiguration key="background" strokeWidth="4">
+                                        <color key="strokeColor" red="0.86985085230000003" green="0.6946991388" blue="0.61489568699999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.98828901199999997" green="1" blue="0.99173412890000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.46470565029999999" green="0.077440398470000005" blue="0.047399610670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhY-0d-f3x">
+                                <rect key="frame" x="202" y="168" width="179" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" imagePlacement="top" title="Choose from Library" subtitle="" cornerStyle="capsule">
+                                    <imageReference key="image" image="plus.circle" catalog="system" symbolScale="large" renderingMode="template"/>
+                                    <backgroundConfiguration key="background" strokeWidth="4">
+                                        <color key="strokeColor" red="0.86985085230000003" green="0.65276857529999999" blue="0.61237816710000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.98828901199999997" green="1" blue="0.99173412890000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.4647056502525253" green="0.077440398473069355" blue="0.047399610667463607" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="chooseLib:" destination="8Py-OO-D3k" eventType="touchUpInside" id="cwi-wg-x2W"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="V19-S4-BN9">
+                                <rect key="frame" x="69" y="277.5" width="276" height="178"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.1686274707" green="0.39607840779999998" blue="0.48627454040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sxY-s0-MKr">
+                                <rect key="frame" x="324" y="27.5" width="70" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.0053133744890000003" green="0.23991622900000001" blue="0.38354245580000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="y8T-cr-3Ab"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.078527893200000004" green="0.39770232500000002" blue="0.48423690029999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="#Share" image="camera.fill" catalog="system" id="dnF-d3-B8H">
                         <color key="badgeColor" red="0.49923058710000001" green="0.13371069799999999" blue="0.20825392649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="DPi-2j-LIU"/>
+                    <connections>
+                        <outlet property="imageChosen" destination="V19-S4-BN9" id="ltG-E0-ZSb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gNl-Uc-q2q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1938" y="70"/>
+            <point key="canvasLocation" x="1937.68115942029" y="69.642857142857139"/>
         </scene>
         <!--Info-->
         <scene sceneID="ogE-xP-XhD">
@@ -848,19 +904,12 @@
                                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="15"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8Q-pe-wca">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Push the button for a statistic!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8Q-pe-wca">
                                                 <rect key="frame" x="0.0" y="1874" width="406" height="73"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.79711174240000005" green="0.44160703849999999" blue="0.43880853069999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Push the button for a statistic!">
-                                                        <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                            <font key="NSFont" size="24" name="HiraMinProN-W3"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="24"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" systemColor="labelColor"/>
                                                 <size key="shadowOffset" width="1" height="-1"/>
@@ -870,16 +919,9 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.16415673489999999" green="0.2365404069" blue="0.36472100019999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" imagePlacement="leading" cornerStyle="small" titleAlignment="center">
+                                                <buttonConfiguration key="configuration" style="filled" imagePlacement="leading" title="Statistic!" cornerStyle="small" titleAlignment="center">
                                                     <imageReference key="image" image="chart.line.uptrend.xyaxis" catalog="system" symbolScale="large"/>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Statistic!">
-                                                            <attributes>
-                                                                <font key="NSFont" size="32" name="HiraMinProN-W3"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="32"/>
                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -1522,11 +1564,11 @@
             <objects>
                 <viewController id="YPE-3j-MFu" customClass="ResourceViewController" customModule="Advocate_s_choice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="snt-A6-T1m">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="626"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="572"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OL6-iQ-a76">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="626"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="572"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VmU-1q-YEb">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
@@ -1728,7 +1770,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="aoa-HZ-qX0"/>
+        <segue reference="sAM-Ft-Ywc"/>
         <segue reference="oV4-Z0-jNp"/>
         <segue reference="qPT-vL-zlA"/>
     </inferredMetricsTieBreakers>
@@ -1742,6 +1784,8 @@
         <image name="a" width="1340" height="913"/>
         <image name="abortion rights business leaders july 2022" width="1500" height="1000"/>
         <image name="b" width="1024" height="683"/>
+        <image name="camera" catalog="system" width="128" height="94"/>
+        <image name="camera.circle" catalog="system" width="128" height="121"/>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="chart.line.uptrend.xyaxis" catalog="system" width="128" height="101"/>
         <image name="cursorarrow.rays" catalog="system" width="128" height="116"/>
@@ -1762,6 +1806,7 @@
         <image name="person.2.wave.2.fill" catalog="system" width="128" height="84"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="pl" width="992" height="558"/>
+        <image name="plus.circle" catalog="system" width="128" height="121"/>
         <image name="rectangle.and.paperclip" catalog="system" width="128" height="99"/>
         <image name="roemarch01" width="2400" height="1602"/>
         <image name="speaker.wave.3" catalog="system" width="128" height="86"/>
