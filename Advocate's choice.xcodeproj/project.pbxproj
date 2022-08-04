@@ -20,6 +20,7 @@
 		BD0A1BCE289B05BC004EDD7D /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A1BCD289B05BC004EDD7D /* InfoViewController.swift */; };
 		BD0A1BD0289B0605004EDD7D /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A1BCF289B0605004EDD7D /* ResourceViewController.swift */; };
 		BD0A1BD2289B061E004EDD7D /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A1BD1289B061E004EDD7D /* ShareViewController.swift */; };
+		BD432324289C117A00BF1506 /* GenerateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD432323289C117A00BF1506 /* GenerateViewController.swift */; };
 		BD92FF62289B8B5100B9C693 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92FF61289B8B5100B9C693 /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		BD0A1BCD289B05BC004EDD7D /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		BD0A1BCF289B0605004EDD7D /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
 		BD0A1BD1289B061E004EDD7D /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		BD432323289C117A00BF1506 /* GenerateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateViewController.swift; sourceTree = "<group>"; };
 		BD92FF61289B8B5100B9C693 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 		2801CF242899A18400239324 = {
 			isa = PBXGroup;
 			children = (
+				BD432323289C117A00BF1506 /* GenerateViewController.swift */,
 				BD92FF61289B8B5100B9C693 /* PopUpViewController.swift */,
 				BD0A1BD1289B061E004EDD7D /* ShareViewController.swift */,
 				BD0A1BCF289B0605004EDD7D /* ResourceViewController.swift */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD0A1BD2289B061E004EDD7D /* ShareViewController.swift in Sources */,
+				BD432324289C117A00BF1506 /* GenerateViewController.swift in Sources */,
 				2801CF352899A18400239324 /* ViewController.swift in Sources */,
 				2801CF3B2899A18400239324 /* Advocate_s_choice.xcdatamodeld in Sources */,
 				BD0A1BD0289B0605004EDD7D /* ResourceViewController.swift in Sources */,
