@@ -795,25 +795,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0sJ-Pb-IgB">
-                                <rect key="frame" x="53.5" y="253" width="307" height="336"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0sJ-Pb-IgB">
+                                <rect key="frame" x="54" y="253" width="307" height="348"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fvg-YT-9Up">
-                                        <rect key="frame" x="8" y="48" width="291" height="240"/>
+                                        <rect key="frame" x="8" y="27" width="291" height="240"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
-                                            <attributedString key="attributedTitle">
-                                                <fragment>
-                                                    <string key="content">Emailing your local representatives is a way to fight back right at the source. It gets to them and tells them what you stand for. With more and more people speaking out to them, representatives might be more inclined to acknowledge the sovereignty of the issue at hand.</string>
-                                                    <attributes>
-                                                        <color key="NSColor" red="0.93385022095959591" green="0.92568787120773033" blue="0.86972095323484921" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                        <font key="NSFont" size="20" name="HiraMinProN-W6"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                            <string key="title">Emailing your local representatives is a way to fight back right at the source. It gets to them and tells them what you stand for. With more and more people speaking out to them, representatives might be more inclined to acknowledge the sovereignty of the issue at hand.</string>
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="20"/>
+                                            <color key="baseForegroundColor" red="0.93385022100000004" green="0.92568787119999996" blue="0.86972095319999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztj-R2-uzj">
+                                        <rect key="frame" x="70" y="281" width="168" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" imagePlacement="top" title="Create A Message" subtitle="" cornerStyle="capsule">
+                                            <imageReference key="image" image="cursorarrow.rays" catalog="system" symbolScale="large" renderingMode="template"/>
+                                            <backgroundConfiguration key="background"/>
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                            <color key="baseForegroundColor" red="0.98828901199999997" green="1" blue="0.99173412890000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="baseBackgroundColor" red="0.1647058824" green="0.23921568630000001" blue="0.36470588240000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="mk9-H3-YYl" kind="presentation" id="W9J-dL-yJB"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.79711174240000005" green="0.44160703849115202" blue="0.43880853065678888" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -851,19 +859,19 @@
                                         <rect key="frame" x="0.0" y="0.0" width="411" height="1570"/>
                                         <subviews>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="UP5-ah-mMy">
-                                                <rect key="frame" x="0.0" y="253" width="414" height="4"/>
+                                                <rect key="frame" x="0.0" y="268" width="414" height="4"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="progressTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="trackTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </progressView>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="h1p-QP-W4E">
-                                                <rect key="frame" x="0.0" y="97" width="414" height="4"/>
+                                                <rect key="frame" x="0.0" y="111" width="414" height="4"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="progressTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="trackTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </progressView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Generate The Message Here " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2u-0l-SJY">
-                                                <rect key="frame" x="0.0" y="102" width="411" height="151"/>
+                                                <rect key="frame" x="2" y="116" width="411" height="151"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.86985085230000003" green="0.76235271159999995" blue="0.77434084319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="40"/>
@@ -918,8 +926,14 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b58-9Q-xE9">
+                                                <rect key="frame" x="91" y="716" width="232" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pn7-uA-U0J">
-                                                <rect key="frame" x="77" y="1067" width="260" height="49"/>
+                                                <rect key="frame" x="75" y="805" width="260" height="49"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="0.57619160349999998" green="0.31228542660000003" blue="0.2983717722" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
@@ -937,10 +951,25 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Lq-la-Oeu">
-                                                <rect key="frame" x="151" y="25" width="112" height="47"/>
+                                                <rect key="frame" x="69" y="31" width="107" height="48"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" imagePlacement="top" title="Click Out" subtitle="" cornerStyle="capsule">
+                                                <buttonConfiguration key="configuration" style="filled" imagePlacement="top" title="Back Page" subtitle="" cornerStyle="capsule">
+                                                    <imageReference key="image" image="cursorarrow.rays" catalog="system" symbolScale="large" renderingMode="template"/>
+                                                    <backgroundConfiguration key="background"/>
+                                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                    <color key="baseForegroundColor" red="0.98828901199999997" green="1" blue="0.99173412890000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.1647058824" green="0.23921568630000001" blue="0.36470588240000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="YPE-3j-MFu" kind="show" id="gEF-TH-iN1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sjI-PW-AEi">
+                                                <rect key="frame" x="218" y="31" width="176" height="48"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" imagePlacement="top" title="Back To Resources" subtitle="" cornerStyle="capsule">
                                                     <imageReference key="image" image="cursorarrow.rays" catalog="system" symbolScale="large" renderingMode="template"/>
                                                     <backgroundConfiguration key="background"/>
                                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
@@ -948,12 +977,6 @@
                                                     <color key="baseBackgroundColor" red="0.1647058824" green="0.23921568630000001" blue="0.36470588240000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b58-9Q-xE9">
-                                                <rect key="frame" x="91" y="716" width="232" height="34"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
                                         </subviews>
                                         <color key="backgroundColor" red="0.66972566778994846" green="0.75759548611111116" blue="0.75091135334096859" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -1251,11 +1274,11 @@
             <objects>
                 <viewController id="YPE-3j-MFu" customClass="ResourceViewController" customModule="Advocate_s_choice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="snt-A6-T1m">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="734"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="626"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OL6-iQ-a76">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="734"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="626"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VmU-1q-YEb">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
@@ -1412,7 +1435,9 @@
                                                     <color key="baseBackgroundColor" red="0.51475233649999996" green="0.70572450480000004" blue="0.70740609219999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <segue destination="on2-IY-9l9" kind="show" id="57K-5c-lvC"/>
+                                                    <segue destination="on2-IY-9l9" kind="popoverPresentation" popoverAnchorView="aLS-NG-Uwf" id="7ZD-GG-Z3G">
+                                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                                    </segue>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1442,18 +1467,19 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Resources" image="cursorarrow.rays" catalog="system" id="IaA-CR-ZCe"/>
                     <navigationItem key="navigationItem" id="b7p-Rv-ene"/>
-                    <size key="freeformSize" width="414" height="734"/>
+                    <size key="freeformSize" width="414" height="680"/>
                     <connections>
                         <outlet property="imageRounded" destination="3f9-OE-e5M" id="gy2-pw-DoJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OvN-ZV-g8Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1234.7826086956522" y="69.642857142857139"/>
+            <point key="canvasLocation" x="1234.7826086956522" y="33.482142857142854"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="aoa-HZ-qX0"/>
+        <segue reference="gEF-TH-iN1"/>
+        <segue reference="W9J-dL-yJB"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="173A1030-1" width="3000" height="2000"/>
