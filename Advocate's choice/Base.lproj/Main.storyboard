@@ -1417,18 +1417,6 @@
                                                 <color key="shadowColor" red="0.98828901199999997" green="1" blue="0.99173412890000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <size key="shadowOffset" width="1" height="0.0"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRn-Vz-MHg">
-                                                <rect key="frame" x="340" y="1486" width="52" height="52"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" imagePlacement="top" cornerStyle="capsule">
-                                                    <imageReference key="image" image="cursorarrow.rays" catalog="system" symbolScale="large" renderingMode="template"/>
-                                                    <backgroundConfiguration key="background"/>
-                                                    <attributedString key="attributedTitle"/>
-                                                    <color key="baseForegroundColor" red="0.98828901199999997" green="1" blue="0.99173412890000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" red="0.69411766529999996" green="0.42018064960000001" blue="0.42998126279999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
-                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Share Your Story" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fl2-Ae-SnK">
                                                 <rect key="frame" x="0.0" y="1555" width="414" height="59"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1462,6 +1450,18 @@
                                                 <rect key="frame" x="31" y="1279" width="352" height="236"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMM-2V-FQb">
+                                                <rect key="frame" x="340" y="1486" width="52" height="52"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" imagePlacement="top" cornerStyle="capsule">
+                                                    <imageReference key="image" image="cursorarrow.rays" catalog="system" symbolScale="large" renderingMode="template"/>
+                                                    <backgroundConfiguration key="background"/>
+                                                    <attributedString key="attributedTitle"/>
+                                                    <color key="baseForegroundColor" red="0.98828901199999997" green="1" blue="0.99173412890000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.69411766529999996" green="0.42018064960000001" blue="0.42998126279999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.94901961089999998" green="0.77925120619794164" blue="0.76545863680601356" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -1505,7 +1505,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Kat-tn-r86"/>
-        <segue reference="oV4-Z0-jNp"/>
+        <segue reference="eB9-dm-c04"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="173A1030-1" width="3000" height="2000"/>
