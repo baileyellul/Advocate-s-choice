@@ -530,11 +530,11 @@
             <objects>
                 <viewController id="ssf-hL-pKO" customClass="InfoViewController" customModule="Advocate_s_choice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TLz-GQ-bBw">
-                        <rect key="frame" x="0.0" y="0.0" width="351" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="406" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="80z-cP-Do4">
-                                <rect key="frame" x="0.0" y="0.0" width="351" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="406" height="896"/>
                                 <subviews>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mZK-oB-SgR">
                                         <rect key="frame" x="0.0" y="52" width="414" height="4"/>
@@ -543,7 +543,7 @@
                                         <color key="trackTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </progressView>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DbS-Se-ftB">
-                                        <rect key="frame" x="0.0" y="-23" width="351" height="3200"/>
+                                        <rect key="frame" x="0.0" y="-23" width="414" height="3200"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fw7-qO-fnn">
                                                 <rect key="frame" x="8" y="127" width="337" height="655"/>
@@ -781,11 +781,11 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Info" image="rectangle.and.paperclip" catalog="system" id="Apt-Zn-gOn"/>
-                    <size key="freeformSize" width="351" height="896"/>
+                    <size key="freeformSize" width="406" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C3C-4X-ti0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="486.23188405797106" y="70.982142857142847"/>
+            <point key="canvasLocation" x="524.63768115942037" y="70.982142857142847"/>
         </scene>
         <!--Pop Up View Controller-->
         <scene sceneID="9kj-VJ-Xvo">
@@ -849,11 +849,11 @@
             <objects>
                 <viewController id="mk9-H3-YYl" customClass="GenerateViewController" customModule="Advocate_s_choice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n5T-Na-BAU">
-                        <rect key="frame" x="0.0" y="0.0" width="411" height="788"/>
+                        <rect key="frame" x="0.0" y="0.0" width="411" height="734"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RZ6-ec-RLM">
-                                <rect key="frame" x="0.0" y="0.0" width="411" height="788"/>
+                                <rect key="frame" x="0.0" y="0.0" width="411" height="734"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KV8-J1-jZ8">
                                         <rect key="frame" x="0.0" y="0.0" width="411" height="1570"/>
@@ -942,6 +942,9 @@
                                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="24"/>
                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="generateMessage:" destination="mk9-H3-YYl" eventType="touchUpInside" id="3iN-6U-4zx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Lq-la-Oeu">
                                                 <rect key="frame" x="62" y="31" width="107" height="48"/>
@@ -979,12 +982,14 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ij6-RK-h0R">
-                                                <rect key="frame" x="41" y="886" width="329" height="396"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ij6-RK-h0R">
+                                                <rect key="frame" x="45" y="881" width="320" height="331"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="0.0"/>
-                                                <nil key="textColor"/>
+                                                <color key="backgroundColor" red="0.79711174240000005" green="0.44160703849999999" blue="0.43880853069999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="25"/>
+                                                <color key="textColor" red="0.059704751257646405" green="0.31475236769457821" blue="0.38354245580808077" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.93385022100000004" green="0.92568787119999996" blue="0.86972095319999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.66972566778994846" green="0.75759548611111116" blue="0.75091135334096859" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1012,11 +1017,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="o5S-XQ-KDI"/>
-                    <size key="freeformSize" width="411" height="842"/>
+                    <size key="freeformSize" width="411" height="788"/>
                     <connections>
                         <outlet property="loc" destination="IHS-cf-JmH" id="p5G-jn-kMf"/>
                         <outlet property="mes" destination="b58-9Q-xE9" id="8fS-XK-B4r"/>
-                        <outlet property="message" destination="Ij6-RK-h0R" id="WcL-ct-iM1"/>
+                        <outlet property="message" destination="Ij6-RK-h0R" id="sYc-Vx-g2i"/>
                         <outlet property="name" destination="GKK-oH-Fqh" id="XLc-j0-6Yy"/>
                         <outlet property="rep" destination="Qiw-O4-MjN" id="S16-lu-6UF"/>
                     </connections>

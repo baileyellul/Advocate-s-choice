@@ -22,21 +22,29 @@ class GenerateViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let newName = name.text {
-            message.text = newName
-        }
+        
+       
         
         
-        
-        
-        
-        
-        
-
-        // Do any additional setup after loading the view.
+// Do any additional setup after loading the view.
     }
     
-
+    @IBAction func generateMessage(_ sender: UIButton) {
+        if let newName = name.text {
+            if let newRep = rep.text {
+                if let newLoc = loc.text {
+                    if let newMes = mes.text {
+                        message.text = "Dear \(newRep), my name is \(newName), and I am messaging from \(newLoc). \(newMes)"
+                    }
+                    
+                }
+                
+            }
+            
+        }
+        
+    }
+    
     /*
     // MARK: - Navigation
 
