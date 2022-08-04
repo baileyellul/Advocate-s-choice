@@ -481,9 +481,10 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="" cornerStyle="capsule">
                                                     <backgroundConfiguration key="background"/>
+                                                    <color key="baseBackgroundColor" red="0.4782091343" green="0.63420702790000005" blue="0.65642755679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="RegistrarWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bOC-DP-cU2"/>
+                                                    <action selector="PlWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g0p-DX-odC"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSW-rD-V6L">
@@ -493,6 +494,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="" cornerStyle="capsule">
                                                     <backgroundConfiguration key="background"/>
+                                                    <color key="baseBackgroundColor" red="0.4782091343" green="0.63420702790000005" blue="0.65642755679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="TvWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nnl-wV-uQO"/>
@@ -505,6 +507,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="" cornerStyle="capsule">
                                                     <backgroundConfiguration key="background"/>
+                                                    <color key="baseBackgroundColor" red="0.4782091343" green="0.63420702790000005" blue="0.65642755679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="KaWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UfI-YA-PB7"/>
@@ -517,10 +520,10 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="" cornerStyle="capsule">
                                                     <backgroundConfiguration key="background"/>
+                                                    <color key="baseBackgroundColor" red="0.4782091343" green="0.63420702790000005" blue="0.65642755679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="OlWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GzT-tk-Gti"/>
-                                                    <action selector="PlWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5UC-4o-rS6"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Biden signs executive order aimed at ensuring abortion access" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHT-CA-LfA">
@@ -590,6 +593,7 @@
                         <segue destination="ssf-hL-pKO" kind="relationship" relationship="viewControllers" id="aUl-BL-Rq6"/>
                         <segue destination="YPE-3j-MFu" kind="relationship" relationship="viewControllers" id="aoa-HZ-qX0"/>
                         <segue destination="8Py-OO-D3k" kind="relationship" relationship="viewControllers" id="qPT-vL-zlA"/>
+                        <segue destination="ssf-hL-pKO" kind="show" id="vCm-OM-AP6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UZH-Ka-DVY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -601,7 +605,7 @@
             <objects>
                 <viewController id="8Py-OO-D3k" customClass="ShareViewController" customModule="Advocate_s_choice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ss2-t7-N5u">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="y8T-cr-3Ab"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -976,6 +980,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Info" image="rectangle.and.paperclip" catalog="system" id="Apt-Zn-gOn"/>
+                    <navigationItem key="navigationItem" id="WZR-Uz-2F8"/>
                     <size key="freeformSize" width="406" height="896"/>
                     <connections>
                         <outlet property="statistic" destination="DbS-Se-ftB" id="Yoq-b7-5Ry"/>
@@ -984,7 +989,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C3C-4X-ti0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="524.63768115942037" y="70.982142857142847"/>
+            <point key="canvasLocation" x="533" y="80"/>
         </scene>
         <!--Pop Up View Controller-->
         <scene sceneID="9kj-VJ-Xvo">
@@ -994,11 +999,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0sJ-Pb-IgB">
-                                <rect key="frame" x="54" y="253" width="307" height="348"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-04 at 4.50.48 PM" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lRf-si-4q1">
+                                <rect key="frame" x="-23" y="-21" width="461" height="863"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NXn-OY-3XP">
+                                <rect key="frame" x="42" y="218" width="330" height="362"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fvg-YT-9Up">
-                                        <rect key="frame" x="8" y="27" width="291" height="240"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdp-PI-SlN">
+                                        <rect key="frame" x="20" y="33" width="291" height="240"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
@@ -1007,8 +1017,8 @@
                                             <color key="baseForegroundColor" red="0.93385022100000004" green="0.92568787119999996" blue="0.86972095319999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztj-R2-uzj">
-                                        <rect key="frame" x="70" y="281" width="168" height="48"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d49-9m-QIr">
+                                        <rect key="frame" x="81" y="281" width="168" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" imagePlacement="top" title="Create A Message" subtitle="" cornerStyle="capsule">
@@ -1019,23 +1029,15 @@
                                             <color key="baseBackgroundColor" red="0.1647058824" green="0.23921568630000001" blue="0.36470588240000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="mk9-H3-YYl" kind="show" id="9g8-ln-gE4"/>
+                                            <segue destination="mk9-H3-YYl" kind="show" id="tkE-As-f0n"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.79711174240000005" green="0.44160703849115202" blue="0.43880853065678888" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="336" id="3PT-Qc-p9O"/>
-                                    <constraint firstAttribute="width" constant="307" id="bfF-pb-7ZN"/>
-                                </constraints>
+                                <color key="backgroundColor" red="0.79711174240000005" green="0.44160703849999999" blue="0.43880853069999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8iY-Dq-SAH"/>
                         <color key="backgroundColor" red="0.93365293559999996" green="0.79330860270000003" blue="0.76921077100000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="0sJ-Pb-IgB" firstAttribute="centerX" secondItem="cRU-qH-y2R" secondAttribute="centerX" id="aZc-MO-WR9"/>
-                            <constraint firstItem="0sJ-Pb-IgB" firstAttribute="centerY" secondItem="cRU-qH-y2R" secondAttribute="centerY" id="hRo-7J-c9T"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ikk-Q3-spP"/>
                 </viewController>
@@ -1186,9 +1188,10 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.79711174240000005" green="0.44160703849999999" blue="0.43880853069999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="25"/>
-                                                <color key="textColor" red="0.059704751257646405" green="0.31475236769457821" blue="0.38354245580808077" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="textColor" red="0.015081439689288474" green="0.14701514589834083" blue="0.17617582070707072" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" red="0.93385022100000004" green="0.92568787119999996" blue="0.86972095319999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <size key="shadowOffset" width="0.0" height="0.0"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.66972566778994846" green="0.75759548611111116" blue="0.75091135334096859" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1727,9 +1730,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="LoW-Uq-TOg"/>
-        <segue reference="wEr-mK-Sku"/>
-        <segue reference="qa2-pS-xIy"/>
+        <segue reference="Kat-tn-r86"/>
+        <segue reference="oV4-Z0-jNp"/>
+        <segue reference="aUl-BL-Rq6"/>
+        <segue reference="qPT-vL-zlA"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="173A1030-1" width="3000" height="2000"/>
@@ -1737,6 +1741,7 @@
         <image name="20220517-222917" width="1600" height="1067"/>
         <image name="90" width="630" height="423"/>
         <image name="Screen Shot 2022-08-01 at 1.12.49 PM" width="715" height="706"/>
+        <image name="Screen Shot 2022-08-04 at 4.50.48 PM" width="564" height="1163"/>
         <image name="a" width="1340" height="913"/>
         <image name="abortion rights business leaders july 2022" width="1500" height="1000"/>
         <image name="b" width="1024" height="683"/>

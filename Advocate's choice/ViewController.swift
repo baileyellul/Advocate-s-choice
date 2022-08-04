@@ -92,15 +92,12 @@ class ViewController: UIViewController {
     }
     
     
-
-
-@IBAction func Pl(sender: AnyObject) {
-    if let urlPl = NSURL(string: "https://www.kmbc.com/article/despite-vote-on-kansas-abortion-amendment-abortion-battle-in-kansas-not-over/40801413#") {
+   
+    @IBAction func Pl(sender: AnyObject) {
+    if let urlPl = NSURL(string: "https://www.politico.com/news/2022/08/02/kansas-voters-block-effort-to-ban-abortion-in-state-constitutional-amendment-vote-00049442") {
     UIApplication.shared.open(urlPl as URL, options:[:], completionHandler:nil)
     }
 }
-    
-    
     
     
     @IBAction func Ol(sender: AnyObject) {
