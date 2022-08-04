@@ -23,6 +23,7 @@
 		BD432324289C117A00BF1506 /* GenerateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD432323289C117A00BF1506 /* GenerateViewController.swift */; };
 		BD61E0D3289C453000C3957F /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61E0D2289C453000C3957F /* SocialViewController.swift */; };
 		BD61E0D5289C4ED100C3957F /* CharViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61E0D4289C4ED100C3957F /* CharViewController.swift */; };
+		BD61E0D9289C78FD00C3957F /* unnamed.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD61E0D8289C78FD00C3957F /* unnamed.jpeg */; };
 		BD92FF62289B8B5100B9C693 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92FF61289B8B5100B9C693 /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		BD432323289C117A00BF1506 /* GenerateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateViewController.swift; sourceTree = "<group>"; };
 		BD61E0D2289C453000C3957F /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
 		BD61E0D4289C4ED100C3957F /* CharViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharViewController.swift; sourceTree = "<group>"; };
+		BD61E0D8289C78FD00C3957F /* unnamed.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = unnamed.jpeg; path = ../../unnamed.jpeg; sourceTree = "<group>"; };
 		BD92FF61289B8B5100B9C693 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +131,7 @@
 				2801CF3C2899A18900239324 /* Assets.xcassets */,
 				2801CF3E2899A18900239324 /* LaunchScreen.storyboard */,
 				2801CF412899A18900239324 /* Info.plist */,
+				BD61E0D8289C78FD00C3957F /* unnamed.jpeg */,
 				2801CF392899A18400239324 /* Advocate_s_choice.xcdatamodeld */,
 			);
 			path = "Advocate's choice";
@@ -255,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD61E0D9289C78FD00C3957F /* unnamed.jpeg in Resources */,
 				2801CF402899A18900239324 /* LaunchScreen.storyboard in Resources */,
 				2801CF3D2899A18900239324 /* Assets.xcassets in Resources */,
 				2801CF382899A18400239324 /* Main.storyboard in Resources */,

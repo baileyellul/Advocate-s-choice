@@ -590,10 +590,9 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="cou-rl-yzJ"/>
-                        <segue destination="ssf-hL-pKO" kind="relationship" relationship="viewControllers" id="aUl-BL-Rq6"/>
+                        <segue destination="ssf-hL-pKO" kind="relationship" relationship="viewControllers" id="ch1-Ye-CeT"/>
                         <segue destination="YPE-3j-MFu" kind="relationship" relationship="viewControllers" id="aoa-HZ-qX0"/>
                         <segue destination="8Py-OO-D3k" kind="relationship" relationship="viewControllers" id="qPT-vL-zlA"/>
-                        <segue destination="ssf-hL-pKO" kind="show" id="vCm-OM-AP6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UZH-Ka-DVY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -983,7 +982,6 @@
                     <navigationItem key="navigationItem" id="WZR-Uz-2F8"/>
                     <size key="freeformSize" width="406" height="896"/>
                     <connections>
-                        <outlet property="statistic" destination="DbS-Se-ftB" id="Yoq-b7-5Ry"/>
                         <outlet property="statisticTwo" destination="oq3-Q3-AFk" id="C4Z-HF-Jv6"/>
                     </connections>
                 </viewController>
@@ -1524,11 +1522,11 @@
             <objects>
                 <viewController id="YPE-3j-MFu" customClass="ResourceViewController" customModule="Advocate_s_choice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="snt-A6-T1m">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="572"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="626"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OL6-iQ-a76">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="572"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="626"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VmU-1q-YEb">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
@@ -1730,9 +1728,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Kat-tn-r86"/>
+        <segue reference="aoa-HZ-qX0"/>
         <segue reference="oV4-Z0-jNp"/>
-        <segue reference="aUl-BL-Rq6"/>
         <segue reference="qPT-vL-zlA"/>
     </inferredMetricsTieBreakers>
     <resources>
