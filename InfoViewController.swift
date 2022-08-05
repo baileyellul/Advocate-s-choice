@@ -8,13 +8,38 @@
 import UIKit
 
 class InfoViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var data: UIImageView!
+    
+    
+    @IBOutlet weak var data1: UIImageView!
+    
+    
+    @IBOutlet weak var data2: UIImageView!
+    
+    
+    
     @IBOutlet weak var statisticTwo: UILabel!
     @IBOutlet weak var statisticLabel: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        data.layer.cornerRadius = 22
+        data1.layer.cornerRadius = 22
+        data2.layer.cornerRadius = 22
+
+        
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 
     @IBAction func statisticButton(_ sender: Any) {
@@ -30,4 +55,11 @@ class InfoViewController: UIViewController {
     }
     */
 
+    
+    
+    
+    
+    
+    
+    
 }

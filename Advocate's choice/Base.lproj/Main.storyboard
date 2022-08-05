@@ -35,17 +35,6 @@
                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-01 at 1.12.49 PM" translatesAutoresizingMaskIntoConstraints="NO" id="IeB-up-kEA">
-                                                <rect key="frame" x="0.0" y="260" width="433" height="292"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="img is going to be part of a rotating slidshow of imgs thing " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmr-bN-FE0">
-                                                <rect key="frame" x="62" y="560" width="214" height="155"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.80804135099999996" green="0.72232639379999997" blue="0.70641614720000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bch-0d-NWV">
                                                 <rect key="frame" x="0.0" y="914" width="415" height="280"/>
                                                 <subviews>
@@ -332,19 +321,6 @@
                                                 <color key="progressTintColor" red="0.4208885732" green="0.1127280786" blue="0.1755735732" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="trackTintColor" red="0.4208885732" green="0.1127280786" blue="0.1755735732" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </progressView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7t2-VB-EO6">
-                                                <rect key="frame" x="8" y="817" width="400" height="70"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="#MyBodyMyChoice" cornerStyle="medium">
-                                                    <backgroundConfiguration key="background" strokeWidth="0.0">
-                                                        <color key="strokeColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="43"/>
-                                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
-                                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                            </button>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hbw-B3-ci5">
                                                 <rect key="frame" x="0.0" y="1251" width="414" height="4"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -460,16 +436,6 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Body, My Right, My Choice" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ym-eb-Dyu">
-                                                <rect key="frame" x="0.0" y="688" width="414" height="52"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.16470588235294117" green="0.23921568627450979" blue="0.36470588235294116" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="25"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                                <color key="shadowColor" red="0.35544820269999999" green="0.49964920219999998" blue="0.54427083330000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <size key="shadowOffset" width="2" height="-1"/>
-                                            </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imrs (1)" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tub-1p-mO6">
                                                 <rect key="frame" x="32" y="2675" width="158" height="182"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -533,6 +499,33 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Body, My Right, My Choice" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ym-eb-Dyu">
+                                                <rect key="frame" x="0.0" y="675" width="414" height="64"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.16470588235294117" green="0.23921568627450979" blue="0.36470588235294116" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="25"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.35544820269999999" green="0.49964920219999998" blue="0.54427083330000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <size key="shadowOffset" width="2" height="-1"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-04 at 8.00.54 PM" translatesAutoresizingMaskIntoConstraints="NO" id="HkA-vQ-paU">
+                                                <rect key="frame" x="-63" y="268" width="542" height="344"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7t2-VB-EO6">
+                                                <rect key="frame" x="7" y="818" width="400" height="70"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="#MyBodyMyChoice" cornerStyle="medium">
+                                                    <backgroundConfiguration key="background" strokeWidth="0.0">
+                                                        <color key="strokeColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="43"/>
+                                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.69434580176767668" green="0.37632561544610871" blue="0.37439576551363951" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -604,7 +597,7 @@
             <objects>
                 <viewController id="8Py-OO-D3k" customClass="ShareViewController" customModule="Advocate_s_choice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ss2-t7-N5u">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#ShareYourStory" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwj-5h-fvQ">
@@ -648,15 +641,15 @@
                                     <action selector="chooseLib:" destination="8Py-OO-D3k" eventType="touchUpInside" id="cwi-wg-x2W"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="V19-S4-BN9">
-                                <rect key="frame" x="69" y="277.5" width="276" height="178"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.1686274707" green="0.39607840779999998" blue="0.48627454040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sxY-s0-MKr">
                                 <rect key="frame" x="324" y="27.5" width="70" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0053133744890000003" green="0.23991622900000001" blue="0.38354245580000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="V19-S4-BN9">
+                                <rect key="frame" x="0.0" y="279" width="414" height="454"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.1686274707" green="0.39607840779999998" blue="0.48627454040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="y8T-cr-3Ab"/>
@@ -809,7 +802,7 @@
                                                 </buttonConfiguration>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Statistics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBH-dU-zzo">
-                                                <rect key="frame" x="0.0" y="1806" width="414" height="67"/>
+                                                <rect key="frame" x="1" y="1811" width="420" height="67"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.86985085230000003" green="0.76235271159999995" blue="0.77434084319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="40"/>
@@ -904,16 +897,6 @@
                                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="15"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Push the button for a statistic!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8Q-pe-wca">
-                                                <rect key="frame" x="0.0" y="1874" width="406" height="73"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.79711174240000005" green="0.44160703849999999" blue="0.43880853069999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="24"/>
-                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <nil key="highlightedColor"/>
-                                                <color key="shadowColor" systemColor="labelColor"/>
-                                                <size key="shadowOffset" width="1" height="-1"/>
-                                            </label>
                                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18h-Ur-aca">
                                                 <rect key="frame" x="121" y="1965" width="165" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -923,6 +906,7 @@
                                                     <imageReference key="image" image="chart.line.uptrend.xyaxis" catalog="system" symbolScale="large"/>
                                                     <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="32"/>
                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                                    <color key="baseBackgroundColor" red="0.058977007682267137" green="0.20443163048615384" blue="0.29782196969696972" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="statisticButton:" destination="ssf-hL-pKO" eventType="touchUpInside" id="Z1V-cE-JwG"/>
@@ -933,11 +917,11 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.41524621210000001" green="0.038599950479999999" blue="0.084632108989999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="18"/>
-                                                <color key="textColor" red="0.72337561849999998" green="0.42755499479999998" blue="0.43528598549999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="textColor" red="0.86985085230000003" green="0.65276857529999999" blue="0.61237816710000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3D5-En-La3">
-                                                <rect key="frame" x="-4" y="1874" width="414" height="4"/>
+                                                <rect key="frame" x="-44" y="1874" width="497" height="4"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="progressTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="trackTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -949,31 +933,31 @@
                                                 <color key="trackTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </progressView>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nlz-vr-lOz">
-                                                <rect key="frame" x="1" y="1943" width="414" height="4"/>
+                                                <rect key="frame" x="-39" y="1943" width="492" height="4"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="progressTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="trackTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </progressView>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hdT-3s-aag">
-                                                <rect key="frame" x="1" y="2048" width="414" height="4"/>
+                                                <rect key="frame" x="-44" y="2048" width="508" height="4"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="progressTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="trackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </progressView>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="w4d-ZA-LWx">
-                                                <rect key="frame" x="0.0" y="2116" width="414" height="4"/>
+                                                <rect key="frame" x="-44" y="2116" width="508" height="4"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="progressTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="trackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </progressView>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="PGf-if-Etb">
-                                                <rect key="frame" x="-8" y="1806" width="414" height="4"/>
+                                                <rect key="frame" x="-50" y="1806" width="514" height="4"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="progressTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="trackTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </progressView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="On Data" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uxb-Q0-bkO">
-                                                <rect key="frame" x="-8" y="2161" width="414" height="67"/>
+                                                <rect key="frame" x="1" y="2161" width="414" height="67"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.86985085230000003" green="0.76235271159999995" blue="0.77434084319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="40"/>
@@ -994,6 +978,28 @@
                                                 <color key="progressTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="trackTintColor" red="0.16469726900000001" green="0.23845623399999999" blue="0.36472143309999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </progressView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="da" translatesAutoresizingMaskIntoConstraints="NO" id="wrL-Ah-WBX">
+                                                <rect key="frame" x="81" y="2274" width="276" height="212"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="teal" translatesAutoresizingMaskIntoConstraints="NO" id="9gR-TK-ukl">
+                                                <rect key="frame" x="72" y="2519" width="292" height="276"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red" translatesAutoresizingMaskIntoConstraints="NO" id="gCl-pt-eXZ">
+                                                <rect key="frame" x="79" y="2820" width="278" height="289"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Push the button for a statistic!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8Q-pe-wca">
+                                                <rect key="frame" x="0.0" y="1874" width="421" height="73"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.79711174240000005" green="0.44160703849999999" blue="0.43880853069999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="24"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" systemColor="labelColor"/>
+                                                <size key="shadowOffset" width="1" height="-1"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.54509806630000002" green="0.64705884459999996" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -1024,12 +1030,15 @@
                     <navigationItem key="navigationItem" id="WZR-Uz-2F8"/>
                     <size key="freeformSize" width="406" height="896"/>
                     <connections>
+                        <outlet property="data" destination="wrL-Ah-WBX" id="VS7-YV-cx4"/>
+                        <outlet property="data1" destination="9gR-TK-ukl" id="YeE-7h-PPF"/>
+                        <outlet property="data2" destination="gCl-pt-eXZ" id="Uy3-XU-9nr"/>
                         <outlet property="statisticTwo" destination="oq3-Q3-AFk" id="C4Z-HF-Jv6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C3C-4X-ti0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="533" y="80"/>
+            <point key="canvasLocation" x="531.8840579710145" y="79.6875"/>
         </scene>
         <!--Pop Up View Controller-->
         <scene sceneID="9kj-VJ-Xvo">
@@ -1770,17 +1779,17 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sAM-Ft-Ywc"/>
-        <segue reference="oV4-Z0-jNp"/>
-        <segue reference="qPT-vL-zlA"/>
+        <segue reference="3Vt-9s-5pI"/>
+        <segue reference="wEr-mK-Sku"/>
+        <segue reference="qa2-pS-xIy"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="173A1030-1" width="3000" height="2000"/>
         <image name="2022-03-11T162058Z_31085503_RC2G0T96BEE3_RTRMADP_3_USA-ABORTION-TEXAS-1024x683" width="1024" height="683"/>
         <image name="20220517-222917" width="1600" height="1067"/>
         <image name="90" width="630" height="423"/>
-        <image name="Screen Shot 2022-08-01 at 1.12.49 PM" width="715" height="706"/>
         <image name="Screen Shot 2022-08-04 at 4.50.48 PM" width="564" height="1163"/>
+        <image name="Screen Shot 2022-08-04 at 8.00.54 PM" width="1082" height="1086"/>
         <image name="a" width="1340" height="913"/>
         <image name="abortion rights business leaders july 2022" width="1500" height="1000"/>
         <image name="b" width="1024" height="683"/>
@@ -1790,6 +1799,7 @@
         <image name="chart.line.uptrend.xyaxis" catalog="system" width="128" height="101"/>
         <image name="cursorarrow.rays" catalog="system" width="128" height="116"/>
         <image name="d41586-022-01775-z_23202552" width="800" height="533"/>
+        <image name="da" width="1800" height="1316"/>
         <image name="doc.richtext" catalog="system" width="115" height="128"/>
         <image name="doc.richtext.ko" catalog="system" width="115" height="128"/>
         <image name="download" width="970" height="647"/>
@@ -1808,8 +1818,10 @@
         <image name="pl" width="992" height="558"/>
         <image name="plus.circle" catalog="system" width="128" height="121"/>
         <image name="rectangle.and.paperclip" catalog="system" width="128" height="99"/>
+        <image name="red" width="3240" height="3240"/>
         <image name="roemarch01" width="2400" height="1602"/>
         <image name="speaker.wave.3" catalog="system" width="128" height="86"/>
+        <image name="teal" width="480" height="480"/>
         <image name="tv.and.mediabox" catalog="system" width="128" height="89"/>
         <image name="x" width="1404" height="907"/>
         <systemColor name="labelColor">

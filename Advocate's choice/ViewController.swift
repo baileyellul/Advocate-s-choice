@@ -28,10 +28,15 @@ class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
+    
+    
+    
     
     @IBAction func up(_ sender: UIButton) {
         upB.backgroundColor = UIColor(red: 0.24, green: 0.68, blue: 0.16, alpha: 1.00)
