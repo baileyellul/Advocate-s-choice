@@ -526,6 +526,60 @@
                                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DmC-33-X02">
+                                                <rect key="frame" x="300" y="2261" width="0.0" height="0.0"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mkb-d9-UCy">
+                                                <rect key="frame" x="294" y="2240" width="54" height="71"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X65-mr-r5y">
+                                                <rect key="frame" x="351" y="1202" width="34" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="suit.heart.fill" catalog="system" title="" cornerStyle="large">
+                                                    <backgroundConfiguration key="background"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="heartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FYL-0V-qXm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z33-2T-GS3">
+                                                <rect key="frame" x="294" y="1202" width="34" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system" title="" cornerStyle="large">
+                                                    <backgroundConfiguration key="background"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="starButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bdm-OA-3yx"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueZ-qo-1ES">
+                                                <rect key="frame" x="391" y="1208" width="23" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u07-tL-k4l">
+                                                <rect key="frame" x="331" y="1209" width="23" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.69434580176767668" green="0.37632561544610871" blue="0.37439576551363951" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -561,6 +615,11 @@
                         <outlet property="downB2" destination="kdd-uJ-kW7" id="7N8-fY-NLh"/>
                         <outlet property="downB3" destination="UAO-ai-3OK" id="ZwG-dE-veb"/>
                         <outlet property="downB4" destination="ke4-yo-qYD" id="8T4-lA-qI1"/>
+                        <outlet property="heart" destination="X65-mr-r5y" id="6Fr-el-k2c"/>
+                        <outlet property="heartNum" destination="ueZ-qo-1ES" id="pLy-t3-SeF"/>
+                        <outlet property="number" destination="Mkb-d9-UCy" id="n3P-jK-fG3"/>
+                        <outlet property="star" destination="Z33-2T-GS3" id="Yof-YL-QGQ"/>
+                        <outlet property="starNum" destination="u07-tL-k4l" id="eAg-oC-Cac"/>
                         <outlet property="upB" destination="igN-73-rRj" id="RbI-sC-LQ7"/>
                         <outlet property="upB1" destination="DQm-jp-Axj" id="leb-c0-4j2"/>
                         <outlet property="upB3" destination="HIJ-sc-HEq" id="eJC-EA-MoA"/>
@@ -1817,9 +1876,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="krs-xo-DtU"/>
-        <segue reference="3Vt-9s-5pI"/>
-        <segue reference="wEr-mK-Sku"/>
+        <segue reference="Kat-tn-r86"/>
+        <segue reference="oV4-Z0-jNp"/>
         <segue reference="qa2-pS-xIy"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1861,6 +1919,8 @@
         <image name="red" width="3240" height="3240"/>
         <image name="roemarch01" width="2400" height="1602"/>
         <image name="speaker.wave.3" catalog="system" width="128" height="86"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <image name="suit.heart.fill" catalog="system" width="128" height="109"/>
         <image name="teal" width="480" height="480"/>
         <image name="tv.and.mediabox" catalog="system" width="128" height="89"/>
         <image name="x" width="1404" height="907"/>

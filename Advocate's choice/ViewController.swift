@@ -21,11 +21,20 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var downB3: UIButton!
     
+    @IBOutlet weak var number: UILabel!
     
     @IBOutlet weak var upB4: UIButton!
     
+    
+    @IBOutlet weak var heartNum: UILabel!
+    
+    @IBOutlet weak var heart: UIButton!
+    
+    @IBOutlet weak var starNum: UILabel!
+    
     @IBOutlet weak var downB4: UIButton!
     
+    @IBOutlet weak var star: UIButton!
     
     override func viewDidLoad() {
         
@@ -35,6 +44,21 @@ class ViewController: UIViewController {
     }
 
     
+    @IBAction func starButton(_ sender: UIButton) {
+        star.backgroundColor = UIColor(red: 0.96, green: 0.77, blue: 0.19, alpha: 1.00)
+        let starNumber = "1"
+        starNum.text = starNumber
+        
+    }
+   
+    
+    @IBAction func heartButton(_ sender: Any) {
+        heart.backgroundColor = UIColor(red: 0.99, green: 0.56, blue: 0.67, alpha: 1.00)
+        let heartNumber = "1"
+        heartNum.text = heartNumber
+    }
+    
+    
     
     
     
@@ -42,6 +66,9 @@ class ViewController: UIViewController {
         upB.backgroundColor = UIColor(red: 0.24, green: 0.68, blue: 0.16, alpha: 1.00)
         
         downB.backgroundColor = UIColor(red: 0.56, green: 0.56, blue: 0.58, alpha: 1.00)
+        
+        
+        
     }
     
     
